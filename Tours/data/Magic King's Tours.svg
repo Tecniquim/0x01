@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="80"
+   viewBox="0 0 48 80"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Magic King's Tours.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="5.12"
+     inkscape:cx="19.628906"
+     inkscape:cy="33.398438"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid129"
+       empspacing="8"
+       spacingx="1"
+       spacingy="1"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 3,0 H 0 V 1 L 1,2 2,1 H 3 L 4,2 H 5 L 6,1 7,2 V 3 H 4 V 4 H 7 V 5 L 6,6 5,5 H 4 L 3,6 H 2 L 1,5 0,6 V 7 H 7 V 6 L 6,5 5,6 H 4 L 3,5 H 2 L 1,6 0,5 V 4 H 3 V 3 H 0 V 2 L 1,1 2,2 H 3 L 4,1 H 5 L 6,2 7,1 V 0 H 4 Z"
+       id="path1429"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 19,0 h -3 v 1 l 1,1 1,-1 h 1 l 1,1 h 1 l 1,-1 1,1 V 3 L 22,4 H 21 L 20,3 v 1 l 1,-1 h 1 l 1,1 V 5 L 22,6 21,5 H 20 L 19,6 H 18 L 17,5 16,6 v 1 h 7 V 6 L 22,5 21,6 H 20 L 19,5 H 18 L 17,6 16,5 V 4 l 1,-1 h 1 l 1,1 V 3 L 18,4 H 17 L 16,3 V 2 l 1,-1 1,1 h 1 l 1,-1 h 1 l 1,1 1,-1 V 0 h -3 z"
+       id="path1429-6"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 3,8 H 0 v 1 l 1,1 1,-1 h 1 l 1,1 h 1 l 1,-1 1,1 v 1 H 6 L 5,12 4,11 v 1 l 1,-1 1,1 h 1 v 1 L 6,14 5,13 H 4 L 3,14 H 2 L 1,13 0,14 v 1 H 7 V 14 L 6,13 5,14 H 4 L 3,13 H 2 L 1,14 0,13 v -1 h 1 l 1,-1 1,1 V 11 L 2,12 1,11 H 0 V 10 L 1,9 2,10 H 3 L 4,9 H 5 L 6,10 7,9 V 8 H 4 Z"
+       id="path1429-6-2"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 11,0 H 8 v 1 l 1,1 1,-1 1,1 1,-1 1,1 1,-1 1,1 v 1 h -3 v 1 h 3 V 5 L 14,6 13,5 12,6 11,5 10,6 9,5 8,6 v 1 h 7 V 6 L 14,5 13,6 12,5 11,6 10,5 9,6 8,5 V 4 h 3 V 3 H 8 V 2 l 1,-1 1,1 1,-1 1,1 1,-1 1,1 1,-1 V 0 h -3 z"
+       id="path1431"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 27,0 h -3 v 1 l 1,1 1,-1 1,1 1,-1 1,1 1,-1 1,1 V 3 L 30,4 H 29 L 28,3 v 1 l 1,-1 h 1 l 1,1 V 5 L 30,6 29,5 28,6 27,5 26,6 25,5 24,6 v 1 h 7 V 6 L 30,5 29,6 28,5 27,6 26,5 25,6 24,5 V 4 l 1,-1 h 1 l 1,1 V 3 L 26,4 H 25 L 24,3 V 2 l 1,-1 1,1 1,-1 1,1 1,-1 1,1 1,-1 V 0 h -3 z"
+       id="path1431-2"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 11,8 H 8 v 1 l 1,1 1,-1 1,1 1,-1 1,1 1,-1 1,1 v 1 h -1 l -1,1 -1,-1 v 1 l 1,-1 1,1 h 1 v 1 l -1,1 -1,-1 -1,1 -1,-1 -1,1 -1,-1 -1,1 v 1 h 7 v -1 l -1,-1 -1,1 -1,-1 -1,1 -1,-1 -1,1 -1,-1 v -1 h 1 l 1,-1 1,1 V 11 L 10,12 9,11 H 8 v -1 l 1,-1 1,1 1,-1 1,1 1,-1 1,1 1,-1 V 8 h -3 z"
+       id="path1431-2-7"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 19,8 h -3 v 1 l 1,1 1,-1 h 1 l 1,1 h 1 l 1,-1 1,1 v 1 l -1,1 -1,-1 h -1 v 1 h 1 l 1,-1 1,1 v 1 l -1,1 -1,-1 h -1 l -1,1 h -1 l -1,-1 -1,1 v 1 h 7 v -1 l -1,-1 -1,1 h -1 l -1,-1 h -1 l -1,1 -1,-1 v -1 l 1,-1 1,1 h 1 v -1 h -1 l -1,1 -1,-1 v -1 l 1,-1 1,1 h 1 l 1,-1 h 1 l 1,1 1,-1 V 8 h -3 z"
+       id="path1429-6-2-2"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 27,8 h -3 v 1 l 1,1 1,-1 1,1 1,-1 1,1 1,-1 1,1 v 1 l -1,1 -1,-1 h -1 v 1 h 1 l 1,-1 1,1 v 1 l -1,1 -1,-1 -1,1 -1,-1 -1,1 -1,-1 -1,1 v 1 h 7 v -1 l -1,-1 -1,1 -1,-1 -1,1 -1,-1 -1,1 -1,-1 v -1 l 1,-1 1,1 h 1 v -1 h -1 l -1,1 -1,-1 v -1 l 1,-1 1,1 1,-1 1,1 1,-1 1,1 1,-1 V 8 h -3 z"
+       id="path1431-2-7-5"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="A7" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 3,16 H 0 v 1 l 1,1 1,-1 h 1 l 1,1 v 1 h 2 l -1,-1 1,-1 1,1 v 3 L 6,22 5,21 6,20 H 4 v 1 L 3,22 H 2 L 1,21 0,22 v 1 H 7 V 22 L 6,21 5,22 H 4 L 3,21 V 20 H 1 l 1,1 -1,1 -1,-1 v -3 l 1,-1 1,1 -1,1 h 2 v -1 l 1,-1 h 1 l 1,1 1,-1 V 16 H 4 Z"
+       id="path1644"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="B0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 11,16 H 8 v 1 l 1,1 1,-1 h 1 l 1,1 v 1 l 1,1 1,-1 -1,-1 1,-1 1,1 v 3 l -1,1 -1,-1 1,-1 -1,-1 -1,1 v 1 l -1,1 H 10 L 9,21 8,22 v 1 h 7 v -1 l -1,-1 -1,1 h -1 l -1,-1 v -1 l -1,-1 -1,1 1,1 -1,1 -1,-1 v -3 l 1,-1 1,1 -1,1 1,1 1,-1 v -1 l 1,-1 h 1 l 1,1 1,-1 v -1 h -3 z"
+       id="path1646"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="B1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 20,17 -1,-1 h -1 l -2,2 v 1 l 2,2 1,-1 3,3 h 1 v -1 l -2,-2 v -1 l 2,-2 v -1 h -1 l -3,3 -1,-1 -2,2 v 1 l 2,2 h 1 l 1,-1 h -1 l 1,1 h 1 l 2,-2 v -1 l -2,-2 -1,1 -3,-3 h -1 v 1 l 2,2 v 1 l -2,2 v 1 h 1 l 3,-3 1,1 2,-2 v -1 l -2,-2 h -1 l -1,1 z"
+       id="path1663"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="C0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 28,16 -1,1 -1,-1 -2,2 v 1 l 2,2 1,-1 3,3 h 1 v -1 l -2,-2 v -1 l 2,-2 v -1 h -1 l -3,3 -1,-1 -2,2 v 1 l 2,2 1,-1 1,1 h -1 l 1,-1 1,1 2,-2 v -1 l -2,-2 -1,1 -3,-3 h -1 v 1 l 2,2 v 1 l -2,2 v 1 h 1 l 3,-3 1,1 2,-2 v -1 l -2,-2 -1,1 -1,-1 z"
+       id="path1663-4"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="C1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 3,24 1,26 0,25 v -1 h 2 l 2,2 h 1 l 1,-1 1,1 v 1 H 5 l -1,1 v -1 l 1,1 h 2 v 1 L 6,30 5,29 H 4 L 2,31 H 0 v -1 l 1,-1 2,2 h 1 l 2,-2 1,1 v 1 H 5 L 3,29 H 2 L 1,30 0,29 v -1 h 2 l 1,-1 v 1 L 2,27 H 0 v -1 l 1,-1 1,1 h 1 l 2,-2 h 2 v 1 L 6,26 4,24 Z"
+       id="path1687"
+       inkscape:label="D0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 11,24 9,26 8,25 v -1 h 2 l 2,2 h 1 l 1,-1 1,1 v 1 h -1 l -1,1 h -1 v -1 h 1 l 1,1 h 1 v 1 l -1,1 -1,-1 h -1 l -2,2 H 8 v -1 l 1,-1 2,2 h 1 l 2,-2 1,1 v 1 H 13 L 11,29 H 10 L 9,30 8,29 v -1 h 1 l 1,-1 h 1 v 1 H 10 L 9,27 H 8 v -1 l 1,-1 1,1 h 1 l 2,-2 h 2 v 1 l -1,1 -2,-2 z"
+       id="path1687-7"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="D1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 19,24 -2,2 -1,-1 v -1 h 2 l 2,2 h 1 l 1,-1 1,1 v 1 l -1,1 h -2 v -1 h 2 l 1,1 v 1 l -1,1 -1,-1 h -1 l -2,2 h -2 v -1 l 1,-1 2,2 h 1 l 2,-2 1,1 v 1 h -2 l -2,-2 h -1 l -1,1 -1,-1 v -1 l 1,-1 h 2 v 1 h -2 l -1,-1 v -1 l 1,-1 1,1 h 1 l 2,-2 h 2 v 1 l -1,1 -2,-2 z"
+       id="path1687-7-0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="D2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 27,24 -2,2 -1,-1 v -1 h 2 l 2,2 h 1 l 1,-1 1,1 v 1 l -1,1 -1,-1 -1,1 v -1 l 1,1 1,-1 1,1 v 1 l -1,1 -1,-1 h -1 l -2,2 h -2 v -1 l 1,-1 2,2 h 1 l 2,-2 1,1 v 1 h -2 l -2,-2 h -1 l -1,1 -1,-1 v -1 l 1,-1 1,1 1,-1 v 1 l -1,-1 -1,1 -1,-1 v -1 l 1,-1 1,1 h 1 l 2,-2 h 2 v 1 l -1,1 -2,-2 z"
+       id="path1687-7-0-9"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="D3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 0,32 v 1 l 1,1 1,-1 1,1 h 1 l 1,-1 1,1 1,-1 V 32 H 4 L 2,34 1,33 0,34 v 1 l 1,1 H 3 V 35 H 1 l -1,1 v 1 l 1,1 1,-1 2,2 H 7 V 38 L 6,37 5,38 4,37 H 3 L 2,38 1,37 0,38 v 1 h 3 l 2,-2 1,1 1,-1 V 36 L 6,35 H 4 v 1 H 6 L 7,35 V 34 L 6,33 5,34 3,32 Z"
+       id="path1768"
+       inkscape:label="E0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 16,32 v 1 l 1,1 1,-1 1,1 h 1 l 1,-1 1,1 1,-1 v -1 h -3 l -2,2 -1,-1 -1,1 v 1 h 1 l 1,1 h 1 v -1 h -1 l -1,1 h -1 v 1 l 1,1 1,-1 2,2 h 3 v -1 l -1,-1 -1,1 -1,-1 h -1 l -1,1 -1,-1 -1,1 v 1 h 3 l 2,-2 1,1 1,-1 v -1 h -1 l -1,-1 h -1 v 1 h 1 l 1,-1 h 1 v -1 l -1,-1 -1,1 -2,-2 z"
+       id="path1768-4"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="E2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 24,32 v 1 l 1,1 1,-1 1,1 h 1 l 1,-1 1,1 1,-1 v -1 h -3 l -2,2 -1,-1 -1,1 v 1 h 2 l 1,1 v -1 l -1,1 h -2 v 1 l 1,1 1,-1 2,2 h 3 v -1 l -1,-1 -1,1 -1,-1 h -1 l -1,1 -1,-1 -1,1 v 1 h 3 l 2,-2 1,1 1,-1 v -1 h -2 l -1,-1 v 1 l 1,-1 h 2 v -1 l -1,-1 -1,1 -2,-2 z"
+       id="path1768-4-9"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="E3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 8,32 v 1 l 1,1 1,-1 1,1 h 1 l 1,-1 1,1 1,-1 v -1 h -3 l -2,2 -1,-1 -1,1 v 1 l 1,1 1,-1 1,1 v -1 l -1,1 -1,-1 -1,1 v 1 l 1,1 1,-1 2,2 h 3 v -1 l -1,-1 -1,1 -1,-1 h -1 l -1,1 -1,-1 -1,1 v 1 h 3 l 2,-2 1,1 1,-1 v -1 l -1,-1 -1,1 -1,-1 v 1 l 1,-1 1,1 1,-1 v -1 l -1,-1 -1,1 -2,-2 z"
+       id="path1768-1"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="E1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 0,40 v 1 l 1,1 h 1 l 2,-2 h 1 l 2,2 v 1 H 5 v 1 h 2 v 1 L 5,47 H 4 L 2,45 H 1 l -1,1 v 1 H 1 L 4,44 H 3 l 3,3 H 7 V 46 L 6,45 H 5 L 3,47 H 2 L 0,45 V 44 H 2 V 43 H 0 v -1 l 2,-2 h 1 l 2,2 H 6 L 7,41 V 40 H 6 L 3,43 H 4 L 1,40 Z"
+       id="path1836"
+       inkscape:label="F0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 16,40 v 1 l 1,1 h 1 l 2,-2 h 1 l 2,2 v 1 l -1,1 h -1 v -1 h 1 l 1,1 v 1 l -2,2 h -1 l -2,-2 h -1 l -1,1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 l -1,-1 h -1 l -2,2 h -1 l -2,-2 v -1 l 1,-1 h 1 v 1 h -1 l -1,-1 v -1 l 2,-2 h 1 l 2,2 h 1 l 1,-1 v -1 h -1 l -3,3 h 1 l -3,-3 z"
+       id="path1836-4"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="F2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 24,40 v 1 l 1,1 h 1 l 2,-2 h 1 l 2,2 v 1 l -1,1 -1,-1 v 1 l 1,-1 1,1 v 1 l -2,2 h -1 l -2,-2 h -1 l -1,1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 l -1,-1 h -1 l -2,2 h -1 l -2,-2 v -1 l 1,-1 1,1 v -1 l -1,1 -1,-1 v -1 l 2,-2 h 1 l 2,2 h 1 l 1,-1 v -1 h -1 l -3,3 h 1 l -3,-3 z"
+       id="path1836-4-6"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="F3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 8,40 v 1 l 1,1 h 1 l 2,-2 h 1 l 2,2 v 1 h -1 l -1,1 v -1 l 1,1 h 1 v 1 l -2,2 H 12 L 10,45 H 9 l -1,1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 l -1,-1 h -1 l -2,2 H 10 L 8,45 v -1 h 1 l 1,-1 v 1 L 9,43 H 8 v -1 l 2,-2 h 1 l 2,2 h 1 l 1,-1 v -1 h -1 l -3,3 h 1 L 9,40 Z"
+       id="path1836-7"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="F1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 0,48 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 1,1 v 1 H 7 V 50 H 6 v 1 l -1,1 v 1 L 3,55 H 2 L 1,54 H 0 v 1 H 1 L 4,52 H 3 l 3,3 H 7 V 54 H 6 L 5,55 H 4 L 2,53 V 52 L 1,51 V 50 H 0 v 3 h 1 v -1 l 1,-1 v -1 l 2,-2 h 1 l 1,1 H 7 V 48 H 6 L 3,51 H 4 L 1,48 Z"
+       id="path1998"
+       inkscape:label="G0" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 46,68 v 1 h 1 v -3 h -1 v 1 h -1 v -1 l -2,-2 h -1 l -1,1 h -1 v -1 h 1 l 3,3 h -1 l 3,-3 h 1 v 1 h -1 l -1,-1 h -1 l -2,2 v 1 h -1 v -1 h -1 v 3 h 1 v -1 h 1 v 1 l 2,2 h 1 l 1,-1 h 1 v 1 h -1 l -3,-3 h 1 l -3,3 h -1 v -1 h 1 l 1,1 h 1 l 2,-2 v -1 z"
+       id="path1998-9"
+       inkscape:label="G16"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 5,76 v 1 L 3,79 H 2 L 1,78 H 0 v 1 H 1 L 4,76 H 3 l 3,3 H 7 V 78 H 6 L 5,79 H 4 L 2,77 v -1 l -1,1 v -1 l -1,1 v -3 l 1,1 v -1 l 1,1 v -1 l 2,-2 h 1 l 1,1 H 7 V 72 H 6 L 3,75 H 4 L 1,72 H 0 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 1,-1 v 1 l 1,-1 v 3 L 6,76 v 1 z"
+       id="path1998-9-5"
+       inkscape:label="G17"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 13,76 v 1 l -2,2 H 10 L 9,78 H 8 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 H 12 L 10,77 V 76 L 9,77 8,76 v 1 L 9,76 V 75 L 8,74 v 1 l 1,-1 1,1 v -1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 L 9,72 H 8 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 1,-1 1,1 v -1 l -1,1 v 1 l 1,1 v -1 l -1,1 z"
+       id="path1998-9-5-8"
+       inkscape:label="G18"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 21,76 v 1 l -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 v -1 l -1,1 h -1 l 1,-1 -1,-1 v 1 l 1,-1 -1,-1 h 1 l 1,1 v -1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 1,-1 h 1 l -1,1 1,1 v -1 l -1,1 1,1 h -1 z"
+       id="path1998-9-5-8-2"
+       inkscape:label="G19"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 29,76 v 1 l -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 v -1 l -1,1 h -1 l 1,-1 h -1 v -1 h 1 l -1,-1 h 1 l 1,1 v -1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 1,-1 h 1 l -1,1 h 1 v 1 h -1 l 1,1 h -1 z"
+       id="path1998-9-5-8-2-5"
+       inkscape:label="G20"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 37,76 v 1 l -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 v -1 l -1,1 h -1 v -1 h 1 v -1 h -1 v -1 h 1 l 1,1 v -1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 1,-1 h 1 v 1 h -1 v 1 h 1 v 1 h -1 z"
+       id="path1998-9-5-8-2-5-8"
+       inkscape:label="G21"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 37,69 -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 v -1 h -1 l -1,1 h 1 l -1,-1 v -1 l 1,-1 h -1 l 1,1 h 1 v -1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 h 1 l 1,-1 h -1 l 1,1 v 1 l -1,1 h 1 l -1,-1 h -1 z"
+       id="path1998-8"
+       inkscape:label="G15"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 40,56 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 2,2 h -1 l 1,-1 v -1 l -1,-1 h 1 l -2,2 v 1 l -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 v -1 l -2,-2 h 1 l -1,1 v 1 l 1,1 h -1 l 2,-2 v -1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 z"
+       id="path1998-07"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G11" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 32,48 v 1 h 1 l 1,-1 h 1 l 4,4 v 1 h -1 l -1,-1 v -1 l 1,-1 h 1 v 1 l -4,4 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -4,-4 v -1 h 1 l 1,1 v 1 l -1,1 h -1 v -1 l 4,-4 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 z"
+       id="path1998-0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G4" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 40,48 v 1 h 1 l 1,-1 h 1 l 3,3 h 1 v -1 h -1 l -1,1 v 1 l 1,1 h 1 v -1 h -1 l -3,3 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -3,-3 h -1 v 1 h 1 l 1,-1 v -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 z"
+       id="path1998-0-4"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G5" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 2,67 v 1 H 0 v 1 h 2 l 2,2 h 1 l 1,-1 h 1 v 1 H 6 L 3,68 H 4 L 1,71 H 0 v -1 h 1 l 1,1 H 3 L 5,69 H 7 V 68 H 5 V 67 H 7 V 66 H 5 L 3,64 H 2 L 1,65 H 0 v -1 h 1 l 3,3 H 3 l 3,-3 h 1 v 1 H 6 L 5,64 H 4 L 2,66 H 0 v 1 z"
+       id="path1998-0-4-07"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G12" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 10,68 V 67 L 9,68 H 8 v 1 h 2 l 2,2 h 1 l 1,-1 h 1 v 1 h -1 l -3,-3 h 1 L 9,71 H 8 v -1 h 1 l 1,1 h 1 l 2,-2 h 2 v -1 h -1 l -1,-1 v 1 l 1,-1 h 1 V 66 H 13 L 11,64 H 10 L 9,65 H 8 v -1 h 1 l 3,3 h -1 l 3,-3 h 1 v 1 h -1 l -1,-1 h -1 l -2,2 H 8 v 1 h 1 z"
+       id="path1998-0-4-07-3"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G13" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 17,68 h 1 v -1 h -1 l -1,1 v 1 h 2 l 2,2 h 1 l 1,-1 h 1 v 1 h -1 l -3,-3 h 1 l -3,3 h -1 v -1 h 1 l 1,1 h 1 l 2,-2 h 2 v -1 l -1,-1 h -1 v 1 h 1 l 1,-1 v -1 h -2 l -2,-2 h -1 l -1,1 h -1 v -1 h 1 l 3,3 h -1 l 3,-3 h 1 v 1 h -1 l -1,-1 h -1 l -2,2 h -2 v 1 z"
+       id="path1998-0-4-07-3-9"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G14" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 25,68 1,-1 v 1 l -1,-1 -1,1 v 1 h 2 l 2,2 h 1 l 1,-1 h 1 v 1 h -1 l -3,-3 h 1 l -3,3 h -1 v -1 h 1 l 1,1 h 1 l 2,-2 h 2 v -1 l -1,-1 -1,1 v -1 l 1,1 1,-1 v -1 h -2 l -2,-2 h -1 l -1,1 h -1 v -1 h 1 l 3,3 h -1 l 3,-3 h 1 v 1 h -1 l -1,-1 h -1 l -2,2 h -2 v 1 z"
+       id="path1998-0-4-07-3-9-7"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G14" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 0,56 v 1 h 1 l 1,-1 h 1 l 3,3 1,-1 v 1 L 6,58 5,59 v 1 l 1,1 1,-1 v 1 L 6,60 3,63 H 2 L 1,62 H 0 v 1 H 1 L 4,60 H 3 l 3,3 H 7 V 62 H 6 L 5,63 H 4 L 1,60 0,61 v -1 l 1,1 1,-1 V 59 L 1,58 0,59 v -1 l 1,1 3,-3 h 1 l 1,1 H 7 V 56 H 6 L 3,59 H 4 L 1,56 Z"
+       id="path1998-0-4-0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G6" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 29,61 -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 h -1 l -1,-1 v 1 l 1,-1 h 1 v -1 h -1 l -1,-1 v 1 l 1,-1 h 1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 h 1 l 1,1 v -1 l -1,1 h -1 v 1 h 1 l 1,1 v -1 l -1,1 z"
+       id="path1998-0-4-0-8"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G9" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 37,61 -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 h -1 l -1,-1 v 1 l 2,-2 v 1 l -2,-2 v 1 l 1,-1 h 1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 h 1 l 1,1 v -1 l -2,2 v -1 l 2,2 v -1 l -1,1 z"
+       id="path1998-0-4-0-8-5"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G10" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 22,52 -1,1 -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 -1,-1 h 1 l -1,1 h -1 v -3 h 1 l 1,1 h -1 l 1,-1 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 1,1 h -1 l 1,-1 h 1 v 3 h -1 l -1,-1 z"
+       id="path1998-5"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 8,48 v 1 h 1 l 1,-1 h 1 l 2,2 v 1 l 1,-1 h 1 v 1 l -1,1 v -1 l 1,1 v 1 h -1 l -1,-1 v 1 l -2,2 H 10 L 9,54 H 8 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 H 12 L 10,53 V 52 L 9,53 H 8 v -1 l 1,-1 v 1 L 8,51 v -1 h 1 l 1,1 v -1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 L 9,48 Z"
+       id="path1998-2"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G1" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 24,48 v 1 h 1 l 1,-1 h 1 l 3,3 -1,1 1,1 h 1 v -3 h -1 l -1,1 1,1 -1,1 -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 -1,-1 1,-1 -1,-1 h -1 v 3 h 1 l 1,-1 -1,-1 3,-3 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 z"
+       id="path1998-23"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G3" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 8,56 v 1 h 1 l 1,-1 h 1 l 2,2 h 1 l -1,1 2,2 v -3 l -2,2 1,1 h -1 l -2,2 H 10 L 9,62 H 8 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 H 12 L 10,61 H 9 l 1,-1 -2,-2 v 3 l 2,-2 -1,-1 h 1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 L 9,56 Z"
+       id="path1998-23-7"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G7" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.35;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 21,60 1,1 h -1 l -2,2 h -1 l -1,-1 h -1 v 1 h 1 l 3,-3 h -1 l 3,3 h 1 v -1 h -1 l -1,1 h -1 l -2,-2 h -1 l 1,-1 h -1 l -1,1 v -3 l 1,1 h 1 l -1,-1 h 1 l 2,-2 h 1 l 1,1 h 1 v -1 h -1 l -3,3 h 1 l -3,-3 h -1 v 1 h 1 l 1,-1 h 1 l 2,2 h 1 l -1,1 h 1 l 1,-1 v 3 l -1,-1 z"
+       id="path1998-23-7-1"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccc"
+       inkscape:label="G8" />
+  </g>
+</svg>
