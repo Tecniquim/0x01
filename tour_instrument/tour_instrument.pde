@@ -61,6 +61,71 @@ void setup() {
 	MKTs = mkt_file.getChild(1);
 	TN = MKTs.getChildCount();
 
+	/* testing magicness: They are sensitive as to the starting position!!
+  for( int i = 0; i < 5; i++ ){
+    tour = get_path( MKTs.getChild( i ) );
+    int magic = 0;
+
+    int[][] board = new int [8][8];
+    for( int p = 0; p < 64; p++ ) {
+    	int x = tour[p] % 8;
+			int y = tour[p] / 8;
+			board[x][y] = p+1;
+    }
+
+    for( int y = 0; y < 8; y++ ){
+    	int t = 0;
+   		for( int x = 0; x < 8; x++ ){
+   			t += board[x][y];
+        print( nf(board[x][y], 2) + ", " );
+      }
+      print( "{" + t +"}.\n");
+    }
+
+    //test columns
+    for( int x = 0; x < 8; x++ ){
+      int t = 0;
+      for( int y = 0; y < 8; y++ ){
+        t += board[x][y];
+      }
+      if( magic == 0 ){
+        magic = t; 
+      }
+      else{
+        if( magic != t ){
+          //println( "!!!! tour " + i + ", column " + x + " = " + t + ", previous = " + magic + "." );   
+        }
+      }
+    }
+
+    //test rows
+    for( int y = 0; y < 8; y++ ){
+      int t = 0;
+      for( int x = 0; x < 8; x++ ){
+        t += board[x][y];
+      }
+      if( magic != t ){
+        //println( "!!!! tour " + i + ", row " + y + " = " + t + ", previous = " + magic + "." );   
+      }
+    }
+
+    //test diags
+    int d1 = 0;
+    int d2 = 0;
+    for( int n = 0; n < 8; n++ ){
+    	d1 += board[n][  n];
+    	d2 += board[n][7-n];
+    }
+    if( magic != d1 ){
+      //println( "!!!! tour " + i + ", d1 = " + d1 + ", previous = " + magic + "." );   
+    }
+    if( magic != d2 ){
+      //println( "!!!! tour " + i + ", d2 = " + d2 + ", previous = " + magic + "." );   
+    }
+
+    println( "> tour " + i + " magic number = " + magic + ".\n" );   
+  }*/
+
 	build_ui();
 	
 	grid_notas = new int[8][8];
@@ -95,8 +160,8 @@ void draw() {
 		for ( int j = 0; j < 8; j++ ) {
 			int nota = grid_notas[i][j] % 12;
 			int octa = grid_notas[i][j] / 12;
-			if( i % 2 == j % 2 ) fill( map(nota, 0, 12, 0, 256), 180 + 5 * octa, 256 );
-			else                 fill( map(nota, 0, 12, 0, 256), 180 + 5 * octa, 192 );
+			if( i % 2 == j % 2 ) fill( map(nota, 0, 12, 0, 256), 140 + 20 * octa, 256 );
+			else                 fill( map(nota, 0, 12, 0, 256), 140 + 20 * octa, 192 );
 			rect( tab_x + i * tab_L, tab_y + j * tab_L, tab_L, tab_L );
 		}
 	}
@@ -132,6 +197,7 @@ void draw() {
 			int octa = grid_notas[i][j] / 12;
 			float frequency = notas_freq[ nota ];//notas_freq[tour[T] % 8];
 			frequency *= pow( 2, octa-4 );
+			//println( "N: "+nota+", O: "+octa+", F: "+frequency );
 			sine.amp(0.8);
 			sine.freq(frequency);
 			sine.pan(0);    
@@ -172,6 +238,49 @@ void mousePressed(){
 void mouseReleased(){
 	UI.mouseReleased();
   
+  if( copy_song.b ){
+  	copy_song.b = false;
+  	StringBuilder s = new StringBuilder();
+  	s.append( "T: "+ sel_tour.n +"\nB: " );
+  	for( int y = 0; y < 8; y++ ){
+   		for( int x = 0; x < 8; x++ ){
+	   		int nota = grid_notas[x][y] % 12;
+				int octa = grid_notas[x][y] / 12;
+				s.append( notas_nome[ nota ] + octa );
+				if( x < 7 ) s.append( ", " );
+				else if( y < 7 ) s.append( ", " );
+   		}
+   		if( y < 7 ) s.append( "\n   " );
+   	}
+  	writeTextToClipboard( s.toString() );
+  }
+  if( paste_song.b ){
+  	paste_song.b = false;
+  	String raw = GetTextFromClipboard();
+  	String[] spl = splitTokens(raw);
+    /*println( spl.length );
+    for(int i=0; i < spl.length; i++){
+      println( "["+i+"]: \""+ spl[i] + "\"" );
+    }*/
+  	sel_tour.n = int( spl[1] );
+  	int p = 3;
+  	for( int y = 0; y < 8; y++ ){
+   		for( int x = 0; x < 8; x++ ){
+   			int nota = -1;
+				int octa = -1;
+				int[] note_index = { 9, 11, 0, 2, 4, 5, 7 };
+				nota = note_index[ spl[p].charAt(0) - 'A' ];
+				if( spl[p].charAt(1) == '#' ){
+					nota += 1;
+					octa = spl[p].charAt(2) - '0';
+				} else{
+					octa = spl[p].charAt(1) - '0';
+				}
+	   		grid_notas[x][y] = octa * 12 + nota;
+	   		p++;
+	   	}
+	  }
+  }
 }
 void mouseDragged(){
 	if( mouseX >= tab_x && mouseX <= tab_x + tab_w && mouseY >= tab_y && mouseY <= tab_y + tab_w ){

@@ -6,6 +6,8 @@ integer sel_tour;
 bool_p PLAYING;
 bool loop_song;
 floating_point step_duration;
+bool copy_song;
+bool paste_song;
 
 void build_ui(){
 
@@ -17,6 +19,8 @@ void build_ui(){
 	PLAYING = new bool_p(false);
 	step_duration = new floating_point(160);
 	loop_song = new bool();
+	copy_song = new bool(false);
+	paste_song = new bool(false);
 	
 	UI = new UISet( 3, 20, 16 );
 	UI.setScheme( #D3D3C9, 20 );
@@ -31,6 +35,8 @@ void build_ui(){
 
 	UI.addSlider(0, 4, "Duration", "TOLI", step_duration, 10, 1000 );
 
+	UI.addToggle(0, 6, "Copy song", "C", copy_song);
+	UI.addToggle(0, 7, "Paste song", "C", paste_song);
 
   
 	UI.Hx = 2.5;
