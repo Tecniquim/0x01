@@ -30,53 +30,53 @@ float tab_L;// largura das casas.
 float m = 3;//margins
 
 void shuffle( float[] deck ) {
-	for (int i = 0; i < deck.length-2; ++i) {
-		int ni = int(random( i+1, deck.length ));
-		float temp = deck[i];
-		deck[i] = deck[ni];
-		deck[ni] = temp;
-	}
+  for (int i = 0; i < deck.length-2; ++i) {
+    int ni = int(random( i+1, deck.length ));
+    float temp = deck[i];
+    deck[i] = deck[ni];
+    deck[ni] = temp;
+  }
 }
 
 void setup() {
-	size( 1366, 695 );
-	surface.setLocation(-8, -2);
-	surface.setResizable(true);
-	frameRate(60);
-	strokeCap(SQUARE);
+  size( 1366, 695 );
+  surface.setLocation(-8, -2);
+  surface.setResizable(true);
+  frameRate(60);
+  strokeCap(SQUARE);
 
-	slt_w = 0.25 * width;
-	slt_x = width - slt_w;
+  slt_w = 0.25 * width;
+  slt_x = width - slt_w;
 
-	sln_w = width - slt_w;
-	sln_h = 0.25 * height;
-	sln_y = height - sln_h;
+  sln_w = width - slt_w;
+  sln_h = 0.25 * height;
+  sln_y = height - sln_h;
 
-	tab_w = 0.95 * sln_y;
-	tab_x = 0.5 * (sln_w - tab_w);
-	tab_y = 0.5 * (sln_y - tab_w);
-	tab_L = tab_w / 8;
+  tab_w = 0.95 * sln_y;
+  tab_x = 0.5 * (sln_w - tab_w);
+  tab_y = 0.5 * (sln_y - tab_w);
+  tab_L = tab_w / 8;
 
-	PShape mkt_file = loadShape( "Magic King's Tours.svg" );
-	MKTs = mkt_file.getChild(1);
-	TN = MKTs.getChildCount();
+  PShape mkt_file = loadShape( "Magic King's Tours.svg" );
+  MKTs = mkt_file.getChild(1);
+  TN = MKTs.getChildCount();
 
-	/* testing magicness: They are sensitive as to the starting position!!
+  /* testing magicness: They are sensitive as to the starting position!!
   for( int i = 0; i < 5; i++ ){
     tour = get_path( MKTs.getChild( i ) );
     int magic = 0;
 
-    int[][] board = new int [8][8];
-    for( int p = 0; p < 64; p++ ) {
-    	int x = tour[p] % 8;
-			int y = tour[p] / 8;
-			board[x][y] = p+1;
-    }
+   int[][] board = new int [8][8];
+   for( int p = 0; p < 64; p++ ) {
+     int x = tour[p] % 8;
+     int y = tour[p] / 8;
+     board[x][y] = p+1;
+   }
 
     for( int y = 0; y < 8; y++ ){
-    	int t = 0;
-   		for( int x = 0; x < 8; x++ ){
-   			t += board[x][y];
+      int t = 0;
+      for( int x = 0; x < 8; x++ ){
+        t += board[x][y];
         print( nf(board[x][y], 2) + ", " );
       }
       print( "{" + t +"}.\n");
@@ -113,8 +113,8 @@ void setup() {
     int d1 = 0;
     int d2 = 0;
     for( int n = 0; n < 8; n++ ){
-    	d1 += board[n][  n];
-    	d2 += board[n][7-n];
+      d1 += board[n][  n];
+      d2 += board[n][7-n];
     }
     if( magic != d1 ){
       //println( "!!!! tour " + i + ", d1 = " + d1 + ", previous = " + magic + "." );   
@@ -126,239 +126,241 @@ void setup() {
     println( "> tour " + i + " magic number = " + magic + ".\n" );   
   }*/
 
-	build_ui();
-	
-	grid_notas = new int[8][8];
-	for ( int i = 0; i < 8; i++ ){
-		for ( int j = 0; j < 8; j++ ){
-			grid_notas[i][j] = 4 * 12 + natural[i];
-		}		
-	}
+  build_ui();
+  
+  grid_notas = new int[8][8];
+  for ( int i = 0; i < 8; i++ ){
+    for ( int j = 0; j < 8; j++ ){
+      grid_notas[i][j] = 4 * 12 + natural[i];
+    }   
+  }
 
-	// create the sine oscillator.
-	sine = new SinOsc(this);
+  // create the sine oscillator.
+  sine = new SinOsc(this);
 }
 
 void draw() {
 
-	background(230);
+  background(230);
 
-	stroke(0); strokeWeight(2);
-	fill( 200 );
-	// Desenhar Seletor de Tours
-	rect( slt_x, m, slt_w - m, height - 2*m );
+  stroke(0); strokeWeight(2);
+  fill( 200 );
+  // Desenhar Seletor de Tours
+  rect( slt_x, m, slt_w - m, height - 2*m );
 
-	// Desenhar Seletor de Notas
-	rect( m, sln_y, sln_w - 2*m, sln_h - m );
+  // Desenhar Seletor de Notas
+  rect( m, sln_y, sln_w - 2*m, sln_h - m );
 
-	// Desenhar Tabuleiro
-	noFill();
-	rect( tab_x, tab_y, tab_w, tab_w );
-	noStroke();
-	colorMode(HSB, 256);
-	for ( int i = 0; i < 8; i++ ) {
-		for ( int j = 0; j < 8; j++ ) {
-			int nota = grid_notas[i][j] % 12;
-			int octa = grid_notas[i][j] / 12;
-			if( i % 2 == j % 2 ) fill( map(nota, 0, 12, 0, 256), 140 + 20 * octa, 256 );
-			else                 fill( map(nota, 0, 12, 0, 256), 140 + 20 * octa, 192 );
-			rect( tab_x + i * tab_L, tab_y + j * tab_L, tab_L, tab_L );
-		}
-	}
-	colorMode(RGB, 256);
+  // Desenhar Tabuleiro
+  noFill();
+  rect( tab_x, tab_y, tab_w, tab_w );
+  noStroke();
+  colorMode(HSB, 256);
+  for ( int i = 0; i < 8; i++ ) {
+    for ( int j = 0; j < 8; j++ ) {
+      int nota = grid_notas[i][j] % 12;
+      int octa = grid_notas[i][j] / 12;
+      if( i % 2 == j % 2 ) fill( map(nota, 0, 12, 0, 256), 140 + 20 * octa, 256 );
+      else                 fill( map(nota, 0, 12, 0, 256), 140 + 20 * octa, 192 );
+      rect( tab_x + i * tab_L, tab_y + j * tab_L, tab_L, tab_L );
+    }
+  }
+  colorMode(RGB, 256);
 
-	
-	if( PLAYING.b ){
-		if( PLAYING.changed() ){
-			tour = get_path( MKTs.getChild( sel_tour.n ) );
-			sine.play();
-			play_start = millis();
-			PLAYING.set();
-		}
-		int pos = round( (millis() - play_start) / step_duration.n );
-		if( pos >= 0 && pos < 65 ){
-			stroke( 22 ); strokeWeight(tab_L*0.5);
-			noFill();
-			beginShape();
-			for ( int p = 0; p <= pos; p++ ) {
-				int i = tour[p] % 8;
-				int j = tour[p] / 8;
-				vertex( tab_x + (i+0.5) * tab_L, tab_y + (j+0.5) * tab_L );
-			}
-			endShape();
-			noStroke(); strokeWeight(2);
-			fill(22);
-			//float frequency = map(tour[pos], 0, 63, 261.6, 1000);
-			int i = tour[pos] % 8;
-			int j = tour[pos] / 8;
-			//int T = (i+j) % 64;
-			//if( i % 2 != j % 2 ) T = notas.length -1 - (pos % 12);
-			int nota = grid_notas[i][j] % 12;
-			int octa = grid_notas[i][j] / 12;
-			float frequency = notas_freq[ nota ];//notas_freq[tour[T] % 8];
-			frequency *= pow( 2, octa-4 );
-			//println( "N: "+nota+", O: "+octa+", F: "+frequency );
-			sine.amp(0.8);
-			sine.freq(frequency);
-			sine.pan(0);    
-			circle( tab_x + (i+0.5) * tab_L, tab_y + (j+0.5) * tab_L, tab_L*0.66 );
-		}
-		else{
-			if( loop_song.b ){
-				play_start += 64 * step_duration.n;
-			}
-			else{
-				sine.stop();
-				PLAYING.set(false);
-			}
-		}
-	}
-	else{
-		if( PLAYING.changed() ){
-			sine.stop();
-			PLAYING.set();
-		}
-	}
+  
+  if( PLAYING.b ){
+    if( PLAYING.changed() ){
+      tour = get_path( MKTs.getChild( sel_tour.n ) );
+      sine.play();
+      play_start = millis();
+      PLAYING.set();
+    }
+    int pos = round( (millis() - play_start) / step_duration.n );
+    if( pos >= 0 && pos < 65 ){
+      stroke( 22 ); strokeWeight(tab_L*0.5);
+      noFill();
+      beginShape();
+      for ( int p = 0; p <= pos; p++ ) {
+        int i = tour[p] % 8;
+        int j = tour[p] / 8;
+        vertex( tab_x + (i+0.5) * tab_L, tab_y + (j+0.5) * tab_L );
+      }
+      endShape();
+      noStroke(); strokeWeight(2);
+      fill(22);
+      //float frequency = map(tour[pos], 0, 63, 261.6, 1000);
+      int i = tour[pos] % 8;
+      int j = tour[pos] / 8;
+      //int T = (i+j) % 64;
+      //if( i % 2 != j % 2 ) T = notas.length -1 - (pos % 12);
+      int nota = grid_notas[i][j] % 12;
+      int octa = grid_notas[i][j] / 12;
+      float frequency = notas_freq[ nota ];//notas_freq[tour[T] % 8];
+      frequency *= pow( 2, octa-4 );
+      //println( "N: "+nota+", O: "+octa+", F: "+frequency );
+      sine.amp(0.8);
+      sine.freq(frequency);
+      sine.pan(0);    
+      circle( tab_x + (i+0.5) * tab_L, tab_y + (j+0.5) * tab_L, tab_L*0.66 );
+    }
+    else{
+      if( loop_song.b ){
+        play_start += 64 * step_duration.n;
+      }
+      else{
+        sine.stop();
+        PLAYING.set(false);
+      }
+    }
+  }
+  else{
+    if( PLAYING.changed() ){
+      sine.stop();
+      PLAYING.set();
+    }
+  }
 
-	UI.display();
+  UI.display();
 }
 
 void mouseMoved(){
-	UI.mouseMoved();
+  UI.mouseMoved();
 
 }
 void mousePressed(){
-	if( mouseX >= tab_x && mouseX <= tab_x + tab_w && mouseY >= tab_y && mouseY <= tab_y + tab_w ){
-		int I = floor( (mouseX - tab_x) / tab_L );
-		int J = floor( (mouseY - tab_y) / tab_L );
-		grid_notas[I][J] = sel_octa.n * 12 + sel_nota.n;
+  if( mouseX >= tab_x && mouseX <= tab_x + tab_w && mouseY >= tab_y && mouseY <= tab_y + tab_w ){
+    int I = floor( (mouseX - tab_x) / tab_L );
+    int J = floor( (mouseY - tab_y) / tab_L );
+    grid_notas[I][J] = sel_octa.n * 12 + sel_nota.n;
 
-	} UI.mousePressed();
+  } UI.mousePressed();
 }
 void mouseReleased(){
-	UI.mouseReleased();
+  UI.mouseReleased();
   
   if( copy_song.b ){
-  	copy_song.b = false;
-  	StringBuilder s = new StringBuilder();
-  	s.append( "T: "+ sel_tour.n +"\nB: " );
-  	for( int y = 0; y < 8; y++ ){
-   		for( int x = 0; x < 8; x++ ){
-	   		int nota = grid_notas[x][y] % 12;
-				int octa = grid_notas[x][y] / 12;
-				s.append( notas_nome[ nota ] + octa );
-				if( x < 7 ) s.append( ", " );
-				else if( y < 7 ) s.append( ", " );
-   		}
-   		if( y < 7 ) s.append( "\n   " );
-   	}
-  	writeTextToClipboard( s.toString() );
+    copy_song.b = false;
+    StringBuilder s = new StringBuilder();
+    s.append( "T: "+ sel_tour.n +"\nB: " );
+    for( int y = 0; y < 8; y++ ){
+      for( int x = 0; x < 8; x++ ){
+        int nota = grid_notas[x][y] % 12;
+        int octa = grid_notas[x][y] / 12;
+        s.append( notas_nome[ nota ] + octa );
+        if( x < 7 ) s.append( ", " );
+        else if( y < 7 ) s.append( ", " );
+      }
+      if( y < 7 ) s.append( "\n   " );
+    }
+    writeTextToClipboard( s.toString() );
   }
   if( paste_song.b ){
-  	paste_song.b = false;
-  	String raw = GetTextFromClipboard();
-  	String[] spl = splitTokens(raw);
+    paste_song.b = false;
+    String raw = GetTextFromClipboard();
+    String[] spl = splitTokens(raw);
     /*println( spl.length );
     for(int i=0; i < spl.length; i++){
       println( "["+i+"]: \""+ spl[i] + "\"" );
     }*/
-  	sel_tour.n = int( spl[1] );
-  	int p = 3;
-  	for( int y = 0; y < 8; y++ ){
-   		for( int x = 0; x < 8; x++ ){
-   			int nota = -1;
-				int octa = -1;
-				int[] note_index = { 9, 11, 0, 2, 4, 5, 7 };
-				nota = note_index[ spl[p].charAt(0) - 'A' ];
-				if( spl[p].charAt(1) == '#' ){
-					nota += 1;
-					octa = spl[p].charAt(2) - '0';
-				} else{
-					octa = spl[p].charAt(1) - '0';
-				}
-	   		grid_notas[x][y] = octa * 12 + nota;
-	   		p++;
-	   	}
-	  }
+    if( spl.length == 67 ){
+      sel_tour.n = int( spl[1] );
+      int p = 3;
+      for( int y = 0; y < 8; y++ ){
+        for( int x = 0; x < 8; x++ ){
+          int nota = -1;
+          int octa = -1;
+          int[] note_index = { 9, 11, 0, 2, 4, 5, 7 };
+          nota = note_index[ spl[p].charAt(0) - 'A' ];
+          if( spl[p].charAt(1) == '#' ){
+            nota += 1;
+            octa = spl[p].charAt(2) - '0';
+          } else{
+            octa = spl[p].charAt(1) - '0';
+          }
+          grid_notas[x][y] = octa * 12 + nota;
+          p++;
+        }
+      }
+    }
   }
 }
 void mouseDragged(){
-	if( mouseX >= tab_x && mouseX <= tab_x + tab_w && mouseY >= tab_y && mouseY <= tab_y + tab_w ){
-		int I = floor( (mouseX - tab_x) / tab_L );
-		int J = floor( (mouseY - tab_y) / tab_L );
-		grid_notas[I][J] = sel_octa.n * 12 + sel_nota.n;
+  if( mouseX >= tab_x && mouseX <= tab_x + tab_w && mouseY >= tab_y && mouseY <= tab_y + tab_w ){
+    int I = floor( (mouseX - tab_x) / tab_L );
+    int J = floor( (mouseY - tab_y) / tab_L );
+    grid_notas[I][J] = sel_octa.n * 12 + sel_nota.n;
 
-	} UI.mouseDragged();
+  } UI.mouseDragged();
 }
 void mouseWheel( MouseEvent E ){
-	UI.mouseWheel(E);
+  UI.mouseWheel(E);
 }
 void keyReleased(){
-	if( key == ' ' ){
-		PLAYING.b = true;
-	}
+  if( key == ' ' ){
+    PLAYING.b = true;
+  }
 }
 
 class BB{
-	float x, y, w, h;
-	BB( float x, float y, float w, float h){
-		this.x = x;
-		this.y = y;
-		this.w = w;
-		this.h = h;
-	}
+  float x, y, w, h;
+  BB( float x, float y, float w, float h){
+    this.x = x;
+    this.y = y;
+    this.w = w;
+    this.h = h;
+  }
 }
 BB calc_PShape_BB( PShape S ){
-	int vn = S.getVertexCount();
-	float minx =  999999;
-	float miny =  999999;
-	float maxx = -999999;
-	float maxy = -999999;
-	for(int v = 0; v < vn; v++){
-		PVector V = S.getVertex(v);
-		if( V.x < minx ) minx = V.x;
-		if( V.y < miny ) miny = V.y;
-		if( V.x > maxx ) maxx = V.x;
-		if( V.y > maxy ) maxy = V.y;
-	}
-	return new BB( minx, miny, maxx - minx, maxy - miny );
+  int vn = S.getVertexCount();
+  float minx =  999999;
+  float miny =  999999;
+  float maxx = -999999;
+  float maxy = -999999;
+  for(int v = 0; v < vn; v++){
+    PVector V = S.getVertex(v);
+    if( V.x < minx ) minx = V.x;
+    if( V.y < miny ) miny = V.y;
+    if( V.x > maxx ) maxx = V.x;
+    if( V.y > maxy ) maxy = V.y;
+  }
+  return new BB( minx, miny, maxx - minx, maxy - miny );
 }
 
 int[] get_path( PShape tour ){
-	BB bb = calc_PShape_BB( tour );
-	int[] out;
-	out = new int[65];
-	int o = 0;
-	int vn = tour.getVertexCount();
-	//println( t, vn );
-	for(int v = 0; v < vn; v++){
-		PVector V = tour.getVertex(v);
-		PVector NV = tour.getVertex((v+1)%vn);
-		float dx = NV.x - V.x;
-		float dy = NV.y - V.y;
-		out[o++] = round( (V.y-bb.y) * 8 + V.x-bb.x);
-		if( abs(dx) > 1 || abs(dy) > 1 ){
-			if( dx != 0 && dy == 0 ){//horizontal
-				float dir = (NV.x > V.x)? 1 : -1;
-				for(int x = 1; x < abs(dx); x++ ){
-					out[o++] = round( (V.y-bb.y) * 8 + V.x-bb.x + (dir*x));
-				}
-			}
-			else if(dx == 0 && dy != 0 ){//vertical
-				float dir = (NV.y > V.y)? 1 : -1;
-				for(int y = 1; y < abs(dy); y++ ){
-					out[o++] = round( (V.y-bb.y+(y*dir)) * 8 + V.x - bb.x);
-				}
-			}
-			else if(dx != 0 && dy != 0 ){//diagonal
-				float dirx = (NV.x > V.x)? 1 : -1;
-				float diry = (NV.y > V.y)? 1 : -1;
-				for(int t = 1; t < abs(dy); t++ ){
-					out[o++] = round( (V.y-bb.y+(t*diry)) * 8 + V.x - bb.x + (dirx*t));
-				}
-			} 
-		}
-	}
-	out[64] = out[0];
-	return out;
+  BB bb = calc_PShape_BB( tour );
+  int[] out;
+  out = new int[65];
+  int o = 0;
+  int vn = tour.getVertexCount();
+  //println( t, vn );
+  for(int v = 0; v < vn; v++){
+    PVector V = tour.getVertex(v);
+    PVector NV = tour.getVertex((v+1)%vn);
+    float dx = NV.x - V.x;
+    float dy = NV.y - V.y;
+    out[o++] = round( (V.y-bb.y) * 8 + V.x-bb.x);
+    if( abs(dx) > 1 || abs(dy) > 1 ){
+      if( dx != 0 && dy == 0 ){//horizontal
+        float dir = (NV.x > V.x)? 1 : -1;
+        for(int x = 1; x < abs(dx); x++ ){
+          out[o++] = round( (V.y-bb.y) * 8 + V.x-bb.x + (dir*x));
+        }
+      }
+      else if(dx == 0 && dy != 0 ){//vertical
+        float dir = (NV.y > V.y)? 1 : -1;
+        for(int y = 1; y < abs(dy); y++ ){
+          out[o++] = round( (V.y-bb.y+(y*dir)) * 8 + V.x - bb.x);
+        }
+      }
+      else if(dx != 0 && dy != 0 ){//diagonal
+        float dirx = (NV.x > V.x)? 1 : -1;
+        float diry = (NV.y > V.y)? 1 : -1;
+        for(int t = 1; t < abs(dy); t++ ){
+          out[o++] = round( (V.y-bb.y+(t*diry)) * 8 + V.x - bb.x + (dirx*t));
+        }
+      } 
+    }
+  }
+  out[64] = out[0];
+  return out;
 }
