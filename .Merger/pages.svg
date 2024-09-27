@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="420mm"
+   height="297mm"
+   viewBox="0 0 1587.4016 1122.5197"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="pages.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.027161002"
+     inkscape:cx="-994.07231"
+     inkscape:cy="-625.89738"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1587.4016"
+       height="1122.5198"
+       id="page24134" />
+    <inkscape:page
+       x="1597.4016"
+       y="0"
+       width="1587.4016"
+       height="1122.5198"
+       id="page24136" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="2664.666"
+       y="266.92682"
+       width="262.32463"
+       height="497.03614"
+       id="rect24194" />
+    <rect
+       x="820.06781"
+       y="273.35593"
+       width="227.79662"
+       height="312.40677"
+       id="rect23879" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#2a2a2a;stroke:#000000;stroke-linecap:square;paint-order:markers fill stroke"
+       id="rect23823"
+       width="286.37289"
+       height="305.89832"
+       x="370.98306"
+       y="436.06781" />
+    <text
+       xml:space="preserve"
+       id="text23877"
+       style="font-size:74.6667px;line-height:1;font-family:'Courier New';-inkscape-font-specification:'Courier New';white-space:pre;shape-inside:url(#rect23879);fill:#2a2a2a;stroke:#000000;stroke-linecap:square;paint-order:markers fill stroke"><tspan
+         x="820.06836"
+         y="330.45889"
+         id="tspan25261">I'm </tspan><tspan
+         x="820.06836"
+         y="405.12558"
+         id="tspan25263">on </tspan><tspan
+         x="820.06836"
+         y="479.79226"
+         id="tspan25265">page </tspan><tspan
+         x="820.06836"
+         y="554.45895"
+         id="tspan25267">1</tspan></text>
+    <g
+       id="transformo-01"
+       transform="translate(10.000001,66.455952)">
+      <path
+         sodipodi:type="star"
+         style="fill:#2a2a2a;stroke:#000000;stroke-linecap:square;paint-order:markers fill stroke"
+         id="path24190"
+         inkscape:flatsided="true"
+         sodipodi:sides="8"
+         sodipodi:cx="2167.6299"
+         sodipodi:cy="524.64923"
+         sodipodi:r1="244.60957"
+         sodipodi:r2="225.98978"
+         sodipodi:arg1="-1.6461252"
+         sodipodi:arg2="-1.2534261"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 2149.2211,280.73334 177.8664,58.42436 84.4583,167.08279 -58.4244,177.86637 -167.0828,84.45826 -177.8664,-58.42436 -84.4582,-167.08279 58.4244,-177.86637 z" />
+      <text
+         xml:space="preserve"
+         id="text24192"
+         style="font-size:74.6667px;line-height:1;font-family:'Courier New';-inkscape-font-specification:'Courier New';white-space:pre;shape-inside:url(#rect24194);fill:#2a2a2a;stroke:#000000;stroke-linecap:square;paint-order:markers fill stroke"><tspan
+           x="2664.666"
+           y="324.03115"
+           id="tspan25269">I'm </tspan><tspan
+           x="2664.666"
+           y="398.69784"
+           id="tspan25271">on </tspan><tspan
+           x="2664.666"
+           y="473.36453"
+           id="tspan25273">page </tspan><tspan
+           x="2664.666"
+           y="548.03121"
+           id="tspan25275">2</tspan></text>
+    </g>
+  </g>
+</svg>

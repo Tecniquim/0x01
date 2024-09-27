@@ -1,3 +1,5 @@
+import processing.pdf.*;
+
 int DPI;
 float ppcm;// = 28.33333; // pixels_per_cm @ 72dpi
 float mm_per_inch = 25.4;
@@ -17,7 +19,9 @@ float cw;// cell width
 ArrayList<Tour> tlist;
 
 void setup() {
-  size(827, 585, P2D);
+  //size(827, 585);
+  size(1588, 1123, PDF, "out.pdf");
+  //size(1191, 842, PDF, "out.pdf");
   
   //DPI = 300;
   //ppcm = DPI * inch_per_cm;
@@ -41,7 +45,7 @@ void setup() {
   float[] miny = new float[N];
   for( int t = 0; t < N; t++ ){
     //println( tours.getChild(t).width, tours.getChild(t).height );
-    tours.getChild(t).setStroke(#ffffff);
+    //tours.getChild(t).setStroke(#ffffff);
     int vn = tours.getChild(t).getVertexCount();
     //println( t, vn );
     minx[t] = 999999;
@@ -55,21 +59,30 @@ void setup() {
   }
   
   //colorMode(HSB);
-  noLoop();
+  //noLoop();
 }
 
 void draw() {
 
   build_poster();
 
-  background(0);
+  background(255);
 
   //grid();
 
-  print("let's show'em");
+  print("\n["+frameCount+"]: ");
   for(int i = 0; i < tlist.size(); i++ ){
+    print("|");
     tlist.get(i).show();
-  }  
+  }
+  
+  PGraphicsPDF pdf = (PGraphicsPDF) g;  // Get the renderer
+  // When finished drawing, quit and save the file
+  if (frameCount == 32) {
+    exit();
+  } else {
+    pdf.nextPage();  // Tell it to go to the next page
+  }
 }
 
 void keyPressed(){
